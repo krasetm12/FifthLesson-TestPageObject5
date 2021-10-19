@@ -388,7 +388,7 @@ public class FirstTest extends CoreTestCase {
                 title_after_second_rotation);
     }
     @Test
-    public void testSaveTwoArticlesToMyList()
+    public void testSaveTwoArticlesToMyListe()
     {
         SearchPageObject SearchPageObject= new SearchPageObject(driver);
         SearchPageObject.initSearchInput();
@@ -422,7 +422,7 @@ public class FirstTest extends CoreTestCase {
 
     }
     @Test
-    public void testOpenArticleAndCheckTitle() {
+    public void testOpenArticleAndCheckTitlex() {
 
         SearchPageObject SearchPageObject= new SearchPageObject(driver);
         SearchPageObject.initSearchInput();
@@ -432,7 +432,7 @@ public class FirstTest extends CoreTestCase {
         ArticlePageObject.articleHasTitle();
     }
     @Test
-    public void testCancellationSearchJava() {
+    public void testCancellationSearchJavak() {
 
         SearchPageObject SearchPageObject= new SearchPageObject(driver);
         SearchPageObject.initSearchInput();
